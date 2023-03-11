@@ -2,7 +2,7 @@ import express from 'express'
 import cookieparser from 'cookie-parser'
 import { config } from "dotenv";
 import courseRouter from './routes/CourseRoutes.js';
-import userRouter from './routes/userRoutes.js';
+import userRouter from './routes/UserRoutes.js';
 import ErrorMiddleware from './middlewares/Error.js';
 import paymentRouter from './routes/PaymentRouters.js'
 import otherRoutes from './routes/OtherRoutes.js'
